@@ -1,0 +1,21 @@
+/*Import Tailwind CSS styles*/
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.contactInfo-Container {
+  @apply flex flex-row items-center justify-center w-full h-full;
+}
+
+.MePhoto {
+  @apply max-h-60 gray; /* Adjust the maximum height as needed */
+}
+
+.ContactTitle{
+  @apply flex flex-column text-2xl p-8 items-center justify-center w-full h-full;
+}
+
+.topLabel{
+@apply flex items-center justify-center; 
+}

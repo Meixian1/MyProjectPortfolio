@@ -1,0 +1,21 @@
+/* style.css */
+
+/* .navBar {
+  You can define custom CSS classes for the NavBar component here if needed.
+} */
+
+/* Apply Tailwind CSS classes to your NavBar component */
+* {
+  box-sizing: border-box;
+  margin: 12px;
+  padding: 0 auto;
+}
+
+/* Apply Tailwind CSS classes to the navigation menu */
+/* nav {
+  @apply bg-pink-300 p-4 px-10;
+} */
+
+ul {
+  @apply justify-center space-x-4 text-black text-xl;
+}
